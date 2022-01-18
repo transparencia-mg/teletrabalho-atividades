@@ -1,0 +1,26 @@
+{
+  "resources": [
+    {
+      "path": "atividades.csv",
+      "name": "atividades",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Atividade",
+            "type": "string"
+          },
+          {
+            "name": "Subatividade",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package"
+}
