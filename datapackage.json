@@ -15,7 +15,41 @@
             "type": "string"
           },
           {
-            "name": "Subatividade",
+            "name": "Entrega",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "projetos.csv",
+      "name": "projetos",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Projeto",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "rotinas.csv",
+      "name": "rotinas",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Rotina",
             "type": "string"
           }
         ]
